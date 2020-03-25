@@ -34,7 +34,6 @@ public class MainActivity extends FragmentActivity {
         tvText.setText(getClass().getSimpleName());
         fragmentManager = new FragmentManager(this, LauncherFragment.class);
 
-//        onPostCreate();
         startActivity(new Intent(this, TestActivity.class));
     }
 
