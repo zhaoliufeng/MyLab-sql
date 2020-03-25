@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eee"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <com.ws.mesh.mylab.BrightnessView
+        android:layout_centerInParent="true"
+        app:ray_length="15dp"
+        app:ray_width="5dp"
+        app:process="50"
+        app:ray_process_color="@color/colorPrimaryDark"
+        app:ray_bg_color="@color/colorPrimary"
+        app:src="@drawable/img_dawn_off"
+        android:layout_width="300dp"
+        android:layout_height="100dp" />
+</RelativeLayout>

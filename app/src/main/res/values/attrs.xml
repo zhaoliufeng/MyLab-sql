@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BrightnessView">
+        <attr name="ray_length" format="dimension"/>
+        <attr name="ray_width" format="dimension"/>
+        <attr name="src" format="reference"/>
+        <attr name="process" format="integer"/>
+        <attr name="ray_process_color" format="color"/>
+        <attr name="ray_bg_color" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="AvatarView">
+    </declare-styleable>
+</resources>
